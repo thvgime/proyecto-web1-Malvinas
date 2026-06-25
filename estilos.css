@@ -54,7 +54,6 @@ main {
 }
 
 main::before {
-    content: "";
     width: 280px;
     height: 600px;
     border-radius: 20px;
@@ -64,7 +63,6 @@ main::before {
 }
 
 main::after {
-    content: "";
     width: 280px;
     height: 380px;
     border-radius: 20px;
@@ -88,8 +86,8 @@ img {
 }
 
 section {
-    width: 480px;
-    height: 350;
+    width: 450px;
+    height: 400px;
     background: rgb(161, 162, 122);
     padding: 20px;
     border-radius: 15px;
