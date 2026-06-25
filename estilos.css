@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    border: 3px solid #a5bb97;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #555;
+}
+
+nav {
+    background-color: #a5bb97;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(112, 122, 86);
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    width: 280px;
+    height: 600px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+main::after {
+    content: "";
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-self: flex-end;
+}
+
+img {
+    margin: 30px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    width: 50px;
+    height: 50px;
+}
+
+.diario{
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+section {
+    flex: 1;
+    width: 500px;
+    background: rgb(161, 162, 122);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+section h3 {
+    margin-bottom: 20px;
+}
+
+section p,
+section li {
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #6c4ad9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
