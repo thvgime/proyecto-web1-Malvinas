@@ -59,10 +59,11 @@ nav a {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 30px;
     padding: 30px;
-    position: relative;
+    width: 90%;
+    margin: 0 auto;
 }
 
 main::before {
@@ -126,4 +127,30 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}
+
+.conflicto {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background: rgb(161, 162, 122);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly
+}
+
+.prueba {
+    height: 600px;
+}
+
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 0 auto;
+
 }
