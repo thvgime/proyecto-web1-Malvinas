@@ -97,7 +97,7 @@ section {
     height: 400px;
     background: rgb(161, 162, 122);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'Times New Roman', Times, serif;
 }
@@ -155,7 +155,7 @@ footer {
 
 }
 
-.consecuencia {
+.consecuencias {
     width: 450px;
     height: 600px;
     background: rgb(161, 162, 122);
@@ -163,7 +163,7 @@ footer {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'Times New Roman', Times, serif;
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
@@ -171,4 +171,24 @@ footer {
     margin: 0 auto;
     width: 0 auto;
 
+}
+
+galeria {
+    width: 500px;
+    height: 600px;
+    background: rgb(161, 162, 122);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
 }
