@@ -94,7 +94,6 @@ main::after {
 
 section {
     width: 450px;
-    height: 400px;
     background: rgb(161, 162, 122);
     padding: 20px;
     border-radius: 8px;
@@ -119,14 +118,6 @@ section li {
 
 section ul {
     padding-left: 20px;
-}
-
-footer {
-    background-color: #80a78d;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
 }
 
 .conflicto {
@@ -173,22 +164,30 @@ footer {
 
 }
 
-galeria {
-    width: 500px;
-    height: 600px;
-    background: rgb(161, 162, 122);
+.galeria {
+    background: rgba(161, 162, 122, 0.82);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.galeria {
-    width: 500px;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
+.imagenes {
+    width: 100%;
+    justify-content: center;
+}
+
+.historia {
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    background-color: #80a78d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
 }
